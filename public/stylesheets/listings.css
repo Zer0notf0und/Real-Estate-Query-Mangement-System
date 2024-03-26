@@ -1,0 +1,95 @@
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  
+  font-size: 35px;
+  color: #895e07;
+}
+.topnav {
+    background-color: #f9f1db;
+    overflow: hidden;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 50px; 
+    margin-bottom:40px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .topnav a {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px; 
+    transition: all 0.3s ease; 
+  }
+  
+  .topnav a:hover {
+    color: #0d3aa2;
+    transform: scale(1.1); 
+  }
+  
+  .topnav a.active {
+    background-color: #fcdc3c;
+    border-radius: 5px; 
+    padding: 10px 15px; 
+  }
+  .container {
+    display: flex;
+   
+    border-color: #c5981c;
+}
+
+.left {
+    width: 30%;
+    background-color: #f7f1d2;
+    border-radius: 10px;
+    margin-left:20px;
+    margin-right:20px;
+    border: 5px solid #9d8239;
+    border-style:double;
+    height: 70vh;
+}
+
+.right {
+    flex: 1; 
+    background-color: #1c1c9d; 
+    border-radius: 10px;
+    border: 5px solid #9d8239;
+    border-style:double;
+    height: fit-content;
+}
+
+form{
+  padding: 30px;
+  font-size: 20px;
+}
+
+.inputs{
+  font-size: 20px;
+
+}
+
+button{
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(255, 222, 138, 0.78);
+}
+.inputs{
+  background-color: (255, 222, 138, 0.78);
+} 
+
+h1{
+  color: #744f06;
+
+}
+.listings{
+  background-color: #9d8239;
+  color: hsl(150, 17%, 95%);
+  font-size: 20px;
+  border: 5px solid #9d8239;
+  border-radius: 5px;
+  margin: 10px;
+
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listings</title>
+    <link rel="stylesheet" href="listings.css">
+    <script defer src="./listings.js"></script>
+</head>
+
+<body>
+    <div class="topnav" id="topnav">
+        <div id="sitename" class="sitename">
+            <p><u>Raghav Estates</u></p>
+        </div>
+        <a href="./home.html">Home</a>
+        <a href="./listings.html">Listings</a>
+        <a href="./login.html">Log In</a>
+        <a href="./about.html">About</a>
+    </div>
+    <div class="container">
+        <div class="left">
+            <form>
+                <div id="inputs" class="inputs">
+                    <input type="text" id="search" class="search" placeholder="Search"><br><br>
+                    <legend>Status:</legend>
+                    <label>
+                        <input type="radio" name="Status" id="Status" value="Rent">
+                        Rent
+                    </label>
+                    <label>
+                        <input type="radio" name="Status" id="Status" value="Sale">
+                        Sale
+                    </label>
+                    <label>
+                        <input type="radio" name="Status" id="Status" value="Rent & Sale">
+                        Rent & Sale
+                    </label> <br><br>
+                    <legend>Type:</legend>
+                    <label>
+                        <input type="radio" name="Type" id="Type" value="Villa ">
+                        Villa
+                    </label>
+                    <label>
+                        <input type="radio" name="Type" id="Type" value="Apartments">
+                        Apartments
+                    </label>
+                    <label>
+                        <input type="radio" name="Type" id="Type" value="Rent">
+                        Rent
+                    </label><br>
+                    <label>
+                        <input type="radio" name="Type" id="Type" value="P.G.">
+                        P.G.
+                    </label> <br><br>
+                    <label for="sort">Sort:</label>
+                    <select name="sort" id="sort">
+                        <option value="price-high-low">Price: High to Low</option>
+                        <option value="price-low-high">Price: Low to High</option>
+                        <option value="recent">Recent</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Sort">
+
+                </div><br>
+                <button type="submit" id="searchbutton" class="searchbutton">Search</button>
+            </form>
+        </div>
+        <div class="right"><h1>Listing Results:</h1>
+        <div id="listing1" class="listings"> <h3>Property1</h3><br>
+        etc etc etc <br></div></div>
+    </div>
+
+</body>
+
+</html>
