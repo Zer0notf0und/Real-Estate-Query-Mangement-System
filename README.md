@@ -1,4 +1,5 @@
-# Real-Estate-Query-Mangement-System
+# Real-Estate-Query-Management-System
+use npm install to download node module dependencies
 
 ![image](https://github.com/Zer0notf0und/Real-Estate-Query-Mangement-System/assets/163713433/18d89ca4-4d47-4d7a-91ea-7003acb989ce)
 
